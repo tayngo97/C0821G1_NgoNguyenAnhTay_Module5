@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ae62de9-66e0-45b8-92f4-d909621ad8e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/angular_casestudy/casestudy/src/assets/images/page-header-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai3/baitap/calculator/src/app/calculator/calculator.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai3/baitap/calculator/src/app/calculator/calculator.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai3/baitap/calculator/src/app/calculator/calculator.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bai3/baitap/calculator/src/app/calculator/calculator.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/baitap/wfda-angular-countdown-timer-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/baitap/wfda-angular-countdown-timer-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/baitap/wfda-angular-countdown-timer-app/src/app/countdown-timer/countdown-timer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/baitap/wfda-angular-countdown-timer-app/src/app/countdown-timer/countdown-timer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/baitap/wfda-angular-rating-bar-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/baitap/wfda-angular-rating-bar-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/name-card/name-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bai5/thuchanh/angular-name-card/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype_casestudy/list_services/list_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/prototype_casestudy/list_services/list_service.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24DliE5a7F4xHj9u9vnp6l8Jgic" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ae62de9-66e0-45b8-92f4-d909621ad8e3" name="Default Changelist" comment="" />
+      <created>1643173162394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643173162394</updated>
+      <workItem from="1643173164695" duration="125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="81" key="FileChooserDialogImpl" timestamp="1643173267478">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="81" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1643173267478" />
+    <state x="90" y="1" key="new project wizard" timestamp="1643173311759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="90" y="1" key="new project wizard/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1643173311759" />
+  </component>
+</project>

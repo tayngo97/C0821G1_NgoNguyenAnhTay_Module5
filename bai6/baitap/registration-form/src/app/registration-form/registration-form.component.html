@@ -1,0 +1,101 @@
+    <div class="container">
+        <h2>Registration Form</h2>
+        <div class="row">
+            <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+                <div class="row col-6">
+                    <label >
+                        Email:
+                        <input class="form-control border" type="text" formControlName="email">
+                    </label>
+                </div>
+                <div style="color:red" class="row" *ngIf="userForm.get('email').touched && userForm.get('email').errors?.required">
+                    Please fill out this field!
+                </div>
+                <div style="color:red" class="row" *ngIf="userForm.get('email').dirty && userForm.get('email').errors?.email">
+                    Please fill out email format !
+                </div>
+
+                <div class="row col-6" formGroupName="passwordGr">
+                    <div class="password ">
+                        <label >
+                            Password: 
+                            <input type="text" class="form-control"  formControlName="password">
+                        </label>
+                    </div>
+                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.password').touched && userForm.get('passwordGr.password').errors?.required">
+                        Password is required !
+                    </div>
+                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.password').dirty && userForm.get('passwordGr.password').errors?.minlength">
+                        Password is more than 6 characters !
+                    </div>
+
+                    <div class="password ">
+                        <label >
+                           Confirm Password: 
+                            <input type="text" class="form-control"  formControlName="passwordCf">
+                        </label>
+                    </div>
+                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.passwordCf').touched && userForm.get('passwordGr').errors?.passwordnotmatch">
+                        Confirm password not match !
+                    </div>
+                </div>
+
+                <div class="row col-6">
+                    <label>
+                        Country:
+                        <select class="form-control" formControlName="country">
+                            <option value="Viet Name">Viet Nam</option>
+                            <option value="Japanese">Japanese</option>
+                            <option value="Usa">Usa</option>
+                        </select>
+                    </label>
+                    <div style="color:red" class="row" *ngIf="userForm.get('country').touched && userForm.get('country').errors?.required">
+                        Please fill out this field !
+                    </div>
+                </div>
+
+                <div class="row col-6">
+                    <label >
+                        Age:
+                        <input type="number" class="form-control" formControlName="age">
+                    </label>
+                    <div style="color:red" class="row" *ngIf="userForm.get('age').touched && userForm.get('age').errors?.required">
+                        Please fill out this field !
+                    </div>
+                    <div style="color:red" class="row" *ngIf="userForm.get('age').dirty && userForm.get('age').errors?.min">
+                        Age can not be under 18 !
+                    </div>
+                </div>
+
+                <div class="col-6 row">
+                    <label>
+                        Gender: 
+                        <label>
+                            Male
+                            <input  type="radio" name="gender" value="Male" formControlName="gender">
+                        </label>
+                        <label>
+                            Female
+                            <input  type="radio" name="gender" value="Female" formControlName="gender">
+                        </label>
+                    </label>
+                </div>
+
+                <div class="row col-6">
+                    <label >
+                        PhoneNumber :
+                        <input type="text" class="form-control" formControlName="phone">
+                    </label>
+                </div>
+                <div style="color:red" class="row" *ngIf="userForm.get('phone').touched && userForm.get('phone').errors?.required">
+                    Please fill out this field !
+                </div>
+
+
+                <!-- BUTTON -->
+                <button  type="submit" class="btn btn-primary" [disabled]="!userForm.valid">Submit</button>
+            </form>
+        </div>
+    </div>
+
+<pre>{{userForm.value | json}}</pre>

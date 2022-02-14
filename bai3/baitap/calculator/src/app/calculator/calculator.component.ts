@@ -22,4 +22,8 @@ export class CalculatorComponent implements OnInit {
   public reset(){
     this.screen = '';
   }
+
+  getValue() {
+
+  }
 }

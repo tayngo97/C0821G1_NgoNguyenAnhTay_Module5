@@ -1,0 +1,47 @@
+<h1>Cập nhật thông tin KH</h1>
+<form [formGroup]="customerForm" (ngSubmit)="updateCustomer(id)">
+    <table>
+        <tr>
+          <td>Mã KH:</td>
+          <td><input type="number" formControlName="id"></td>
+        </tr>
+        <tr>
+          <td>Tên KH:</td>
+          <td><input type="text" formControlName="hoTen"></td>
+        </tr>
+        <tr>
+          <td>Ngay Sinh</td>
+          <td><input type="text" formControlName="ngaySinh"></td>
+        </tr>
+        <tr>
+          <td>Gioi tinh</td>
+          <td><input type="text" formControlName="gioiTinh"></td>
+        </tr>
+        <tr>
+            <td>CMND</td>
+            <td><input type="text" formControlName="soCMND"></td>
+          </tr>
+          <tr>
+            <td>SDT: </td>
+            <td><input type="text" formControlName="soDienThoai"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" formControlName="email"></td>
+          </tr>
+          <tr>
+            <td>Loai Khach</td>
+            <td><input type="text" formControlName="loaiKhach"></td>
+          </tr>
+          <tr>
+            <td>Dia chi</td>
+            <td><input type="text" formControlName="diaChi"></td>
+          </tr>
+        <tr>
+          <td></td>
+          <td><button>Cap nhap</button></td>
+        </tr>
+      </table>
+</form>
+
+
