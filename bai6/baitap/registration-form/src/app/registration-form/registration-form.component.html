@@ -22,10 +22,13 @@
                             <input type="text" class="form-control"  formControlName="password">
                         </label>
                     </div>
-                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.password').touched && userForm.get('passwordGr.password').errors?.required">
+                    <div style="color:red" class="row"
+                     *ngIf="userForm.get('passwordGr.password').touched
+                      && userForm.get('passwordGr.password').errors?.required">
                         Password is required !
                     </div>
-                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.password').dirty && userForm.get('passwordGr.password').errors?.minlength">
+                    <div style="color:red" class="row" *ngIf="userForm.get('passwordGr.password').dirty
+                     && userForm.get('passwordGr.password').errors?.minlength">
                         Password is more than 6 characters !
                     </div>
 
@@ -59,7 +62,8 @@
                         Age:
                         <input type="number" class="form-control" formControlName="age">
                     </label>
-                    <div style="color:red" class="row" *ngIf="userForm.get('age').touched && userForm.get('age').errors?.required">
+                    <div style="color:red" class="row" 
+                    *ngIf="userForm.get('age').touched && userForm.get('age').errors?.required">
                         Please fill out this field !
                     </div>
                     <div style="color:red" class="row" *ngIf="userForm.get('age').dirty && userForm.get('age').errors?.min">
