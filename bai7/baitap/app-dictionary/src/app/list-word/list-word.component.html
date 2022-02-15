@@ -1,0 +1,15 @@
+<h1>List Words</h1>
+
+<table>
+    <tr>
+        <th>Stt</th>
+        <th>Name</th>
+    </tr>
+    <tr *ngFor="let word of words">
+        <td>{{word.id}}</td>
+        <td>{{word.word}}</td>
+        <td>
+            <a [routerLink]="['/list/detail',word.id]">Detail</a>
+        </td>
+    </tr>
+</table>
