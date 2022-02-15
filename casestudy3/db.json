@@ -1,0 +1,80 @@
+{
+  "customer": [
+    {
+      "id": 3,
+      "hoTen": "Tây Ngô",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 4,
+      "hoTen": "Quốc Đoàn",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 5,
+      "hoTen": "Tây Ngô",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 8,
+      "hoTen": "Tây Ngô",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 9,
+      "hoTen": "Tây Ngô",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    },
+    {
+      "id": 10,
+      "hoTen": "Tây Ngô",
+      "ngaySinh": "27/11/1997",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail",
+      "loaiKhach": "Vip",
+      "diaChi": "Đà Nẵng"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

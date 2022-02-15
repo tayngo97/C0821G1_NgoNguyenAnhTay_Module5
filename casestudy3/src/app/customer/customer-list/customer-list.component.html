@@ -1,0 +1,72 @@
+<div class="container">
+    <h1 style="text-align: center;margin-top: 20px"><a  routerLink="/customer/list">Danh sách customer</a></h1>
+
+
+
+    <p><a routerLink="/customer/create"><mat-icon>add</mat-icon></a></p>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Stt</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Giới Tính</th>
+                <th>CMND</th>
+                <th>Số Điện Thoại</th>
+                <th>Email</th>
+                <th>Loại Khách</th>
+                <th>Địa chỉ</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let customer of customers; index as i">
+                <td>{{i + 1}}</td>
+                <td>{{customer.hoTen}}</td>
+                <td>{{customer.ngaySinh }}</td>
+                <td>{{customer.gioiTinh}}</td>
+                <td>{{customer.soCMND}}</td>
+                <td>{{customer.soDienThoai}}</td>
+                <td>{{customer.email}}</td>
+                <td>{{customer.loaiKhach}}</td>
+                <td>{{customer.diaChi}}</td>
+
+             <td><a  [routerLink]="['/customer/edit',customer.id]">
+               <mat-icon>edit</mat-icon>
+             </a></td>
+             <td><a [routerLink]="['/customer/delete',customer.id]" > <mat-icon>delete</mat-icon></a></td>
+
+              <button (click)="getCustomer(customer.id)" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Delete
+              </button>
+              </tr>
+
+
+
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" >
+<!--        Bạn có muốn xóa khách hàng có tên là : {{customerr.hoTen}}-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<!--        <button type="button" class="btn btn-primary">-->
+<!--          <a [routerLink]="['/customer/delete',customerr.id]" > <mat-icon>delete</mat-icon></a>-->
+<!--        </button>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,27 @@
+<h1>Xoá customer</h1>
+<form [formGroup]="customerForm"  (ngSubmit)="deleteCustomer(id)">
+
+  <table>
+    <tr>
+      <td>Mã sản phẩm:</td>
+      <td><input type="number" formControlName="id"></td>
+    </tr>
+    <tr>
+      <td>Tên KH:</td>
+      <td><input type="text" formControlName="hoTen"></td>
+
+    </tr>
+    <tr>
+      <td>Ngay Sinh</td>
+      <td><input type="text" formControlName="ngaySinh"></td>
+    </tr>
+    <tr>
+      <td>Gioi tinh</td>
+      <td><input type="text" formControlName="gioiTinh"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button >Xoá</button></td>
+    </tr>
+  </table>
+</form>
