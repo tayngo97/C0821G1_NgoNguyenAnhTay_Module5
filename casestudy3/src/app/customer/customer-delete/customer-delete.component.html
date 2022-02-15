@@ -1,5 +1,5 @@
 <h1>Xoá customer</h1>
-<form [formGroup]="customerForm"  (ngSubmit)="deleteCustomer(id)">
+<form [formGroup]="customerForm"  (ngSubmit)="deleteCustomer(id)" *ngIf="customerForm">
 
   <table>
     <tr>

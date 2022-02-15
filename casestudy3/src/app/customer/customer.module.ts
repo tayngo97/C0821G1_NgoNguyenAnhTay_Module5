@@ -10,9 +10,10 @@ import { CustomerDeleteComponent } from './customer-delete/customer-delete.compo
 import { CustomerEditComponent } from './customer-edit/customer-edit.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDialogModule} from '@angular/material/dialog';
+import { CustomerTextComponent } from './customer-text/customer-text.component';
 
 @NgModule({
-  declarations: [CustomerListComponent, CustomerCreateComponent, CustomerDeleteComponent, CustomerEditComponent],
+  declarations: [CustomerListComponent, CustomerCreateComponent, CustomerDeleteComponent, CustomerEditComponent, CustomerTextComponent],
   imports: [
     CommonModule,
     CustomerRoutingModule,

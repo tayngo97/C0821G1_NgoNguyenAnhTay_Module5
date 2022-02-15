@@ -1,71 +1,52 @@
 {
   "customer": [
     {
-      "id": 3,
-      "hoTen": "Tây Ngô",
-      "ngaySinh": "27/11/1997",
+      "id": 1,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
       "gioiTinh": "Nam",
       "soCMND": "206313399",
       "soDienThoai": "0905027209",
-      "email": "tay@gmail",
+      "email": "tay@gmail.com",
       "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 2,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 3,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
     },
     {
       "id": 4,
-      "hoTen": "Quốc Đoàn",
-      "ngaySinh": "27/11/1997",
-      "gioiTinh": "Nam",
-      "soCMND": "206313399",
-      "soDienThoai": "0905027209",
-      "email": "tay@gmail",
-      "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
-    },
-    {
-      "id": 5,
-      "hoTen": "Tây Ngô",
-      "ngaySinh": "27/11/1997",
-      "gioiTinh": "Nam",
-      "soCMND": "206313399",
-      "soDienThoai": "0905027209",
-      "email": "tay@gmail",
-      "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
-    },
-    {
-      "id": 8,
-      "hoTen": "Tây Ngô",
-      "ngaySinh": "27/11/1997",
-      "gioiTinh": "Nam",
-      "soCMND": "206313399",
-      "soDienThoai": "0905027209",
-      "email": "tay@gmail",
-      "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
-    },
-    {
-      "id": 9,
-      "hoTen": "Tây Ngô",
-      "ngaySinh": "27/11/1997",
-      "gioiTinh": "Nam",
-      "soCMND": "206313399",
-      "soDienThoai": "0905027209",
-      "email": "tay@gmail",
-      "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
-    },
-    {
-      "id": 10,
-      "hoTen": "Tây Ngô",
-      "ngaySinh": "27/11/1997",
-      "gioiTinh": "Nam",
-      "soCMND": "206313399",
-      "soDienThoai": "0905027209",
-      "email": "tay@gmail",
-      "loaiKhach": "Vip",
-      "diaChi": "Đà Nẵng"
+      "hoTen": "ád",
+      "ngaySinh": "",
+      "gioiTinh": "Nữ",
+      "soCMND": "",
+      "soDienThoai": "",
+      "email": "asd@d",
+      "loaiKhach": "",
+      "diaChi": ""
     }
+  ],
+  "customertype": [
+
   ],
   "comments": [
     {

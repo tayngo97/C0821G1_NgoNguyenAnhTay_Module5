@@ -1,0 +1,35 @@
+
+<div class="container">
+  <h1 mat-dialog-title style="text-align: center">
+    Bạn có chắc muốn xóa khách hàng có id : {{customerForm.controls.id.value}}
+    và có tên : {{customerForm.controls.hoTen.value}}
+    và ngày sinh : {{customerForm.controls.ngaySinh.value}}  không ?</h1>
+<!--  <mat-dialog-content class="mat-typography">-->
+<!--    <div class="row">-->
+<!--      <form [formGroup]="customerForm" >-->
+<!--        <div><label >-->
+<!--          Id:<h5>{{customerForm.controls.id.value}}</h5>-->
+<!--        </label></div>-->
+<!--        <div><label >-->
+<!--          Name:-->
+<!--          <input type="text" formControlName="hoTen">-->
+<!--        </label></div>-->
+<!--        <div><label >-->
+<!--          Ngày sinh:-->
+<!--          <input type="text" formControlName="ngaySinh">-->
+<!--        </label></div>-->
+<!--        <div><label >-->
+<!--          Giới tính:-->
+<!--          <input type="text" formControlName="gioiTinh">-->
+<!--        </label></div>-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </mat-dialog-content>-->
+
+  <mat-dialog-actions align="end">
+    <button class="btn btn-secondary" mat-dialog-close>Cancel</button>
+    <button class="btn btn-danger"  [mat-dialog-close]="true" (click)="deleteCustomer(this.customerForm.controls.id.value)">Delete</button>
+  </mat-dialog-actions>
+</div>
+
+
