@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { CustomerService } from 'src/app/service/customer.service';
 
@@ -30,6 +30,7 @@ export class CustomerEditComponent implements OnInit {
       this.customerForm = this.fb.group({
         id: customer.id,
         hoTen: customer.hoTen,
+        maKh: customer.maKh,
         ngaySinh : customer.ngaySinh,
         gioiTinh : customer.gioiTinh,
         soCMND : customer.soCMND,

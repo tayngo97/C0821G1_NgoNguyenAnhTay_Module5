@@ -16,7 +16,7 @@ export class CustomerTypeService {
   constructor(private http : HttpClient) { }
 
 
-  getAll(): Observable<CustomerType[]> {
+  getAllCustomerType(): Observable<CustomerType[]> {
     return this.http.get<CustomerType[]>(API_URL + '/customertype');
   }
 }

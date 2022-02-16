@@ -1,6 +1,7 @@
 export interface Customer {
     id ?: number;
     hoTen ?: string;
+    maKh?: string;
     ngaySinh ?: string;
     gioiTinh ?: string;
     soCMND ?: string;

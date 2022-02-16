@@ -2,6 +2,12 @@
   <h1 style="text-align: center;margin-top: 20px"><a routerLink="/customer/list">Danh sách customer</a></h1>
 
 
+  <div style="margin-bottom: 20px">
+    <form class="form-inline my-2 my-lg-0">
+      <input type="search" (ngModelChange)="searchEmployees(key.value)" #key="ngModel" ngModel
+             name="key" id="searchName" class="form-control mr-sm-2" placeholder="Search customer..." required>
+    </form>
+  </div>
   <p><a routerLink="/customer/create">
     <mat-icon>add</mat-icon>
   </a></p>
@@ -11,6 +17,7 @@
     <tr>
       <th>Stt</th>
       <th>Họ tên</th>
+      <th>Mã khách hàng</th>
       <th>Ngày sinh</th>
       <th>Giới Tính</th>
       <th>CMND</th>
@@ -21,9 +28,11 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let customer of customers; index as i">
+    <tr *ngFor="let customer of customers | paginate : {
+    itemsPerPage : 10 , currentPage: page,totalItems:totalLength}; index as i">
       <td>{{i + 1}}</td>
       <td>{{customer.hoTen}}</td>
+      <td>{{customer.maKh}}</td>
       <td>{{customer.ngaySinh }}</td>
       <td>{{customer.gioiTinh}}</td>
       <td>{{customer.soCMND}}</td>
@@ -34,21 +43,24 @@
 
       <td><a [routerLink]="['/customer/edit',customer.id]">
         <mat-icon>edit</mat-icon>
-      </a>      </td>
+      </a></td>
 
       <!--      </td>-->
       <!--             <td><a [routerLink]="['/customer/delete',customer.id]" > <mat-icon>delete</mat-icon></a></td>-->
       <td>
-
-        <a style="cursor: pointer" (click)="openDialog(customer)">  <mat-icon>delete</mat-icon></a>
+        <a style="cursor: pointer" (click)="openDialog(customer)">
+          <mat-icon>delete</mat-icon>
+        </a>
       </td>
-
-
     </tr>
 
 
     </tbody>
   </table>
+  <p style="text-align: center">
+    <pagination-controls class="my-pagination" (pageChange)="page = $event"></pagination-controls>
+  </p>
+
 </div>
 
 
@@ -72,5 +84,4 @@
     </div>
   </div>
 </div>
-
 

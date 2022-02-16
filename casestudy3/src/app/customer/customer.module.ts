@@ -11,6 +11,14 @@ import { CustomerEditComponent } from './customer-edit/customer-edit.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDialogModule} from '@angular/material/dialog';
 import { CustomerTextComponent } from './customer-text/customer-text.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+import {Ng2OrderModule} from 'ng2-order-pipe';
+import {Ng2SearchPipeModule} from 'ng2-search-filter';
+import {MatSortModule} from '@angular/material/sort';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [CustomerListComponent, CustomerCreateComponent, CustomerDeleteComponent, CustomerEditComponent, CustomerTextComponent],
@@ -21,7 +29,15 @@ import { CustomerTextComponent } from './customer-text/customer-text.component';
     ReactiveFormsModule,
     RouterModule,
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    NgxPaginationModule,
+    Ng2OrderModule,
+    Ng2SearchPipeModule,
+    MatSortModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule
   ]
 })
 export class CustomerModule { }

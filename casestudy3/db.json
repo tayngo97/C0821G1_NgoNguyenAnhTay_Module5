@@ -23,7 +23,7 @@
       "diaChi": "Da nang"
     },
     {
-      "id": 3,
+      "id": 4,
       "hoTen": "Tay Ngo",
       "ngaySinh": "2022-02-06",
       "gioiTinh": "Nam",
@@ -34,19 +34,127 @@
       "diaChi": "Da nang"
     },
     {
-      "id": 4,
-      "hoTen": "ád",
-      "ngaySinh": "",
+      "id": 5,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 6,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 7,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 8,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 9,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 10,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 11,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 12,
+      "hoTen": "Tay Ngo",
+      "ngaySinh": "2022-02-06",
+      "gioiTinh": "Nam",
+      "soCMND": "206313399",
+      "soDienThoai": "0905027209",
+      "email": "tay@gmail.com",
+      "loaiKhach": "Vip",
+      "diaChi": "Da nang"
+    },
+    {
+      "id": 15,
+      "hoTen": "Dong Giang",
+      "maKh": "KH-1231",
+      "ngaySinh": "2022-02-03",
       "gioiTinh": "Nữ",
       "soCMND": "",
-      "soDienThoai": "",
-      "email": "asd@d",
+      "soDienThoai": "0902323232",
+      "email": "a@s",
       "loaiKhach": "",
       "diaChi": ""
     }
   ],
   "customertype": [
-
+    {
+      "id": 1,
+      "name": "Member"
+    },
+    {
+      "id": 2,
+      "name": "Gold"
+    },
+    {
+      "id": 3,
+      "name": "Silver"
+    },
+    {
+      "id": 4,
+      "name": "Platinum"
+    },
+    {
+      "id": 5,
+      "name": "Vip"
+    }
   ],
   "comments": [
     {

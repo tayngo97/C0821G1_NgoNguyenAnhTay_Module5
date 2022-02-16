@@ -15,6 +15,7 @@ export class CustomerTextComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any,
               private customerService: CustomerService,
+              private router: Router,
               private fb: FormBuilder,
               private dialogRef: MatDialogRef<CustomerTextComponent>,
              ) { }
@@ -44,6 +45,7 @@ export class CustomerTextComponent implements OnInit {
     console.log(id);
     this.customerService.deleteCustomer(id).subscribe(() => {
       alert('Deleted!');
+      this.router.navigate(['customer/list']);
       this.dialogRef.close('delete');
     }, err => {
       console.log(err);
